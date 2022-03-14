@@ -15,3 +15,5 @@ path.format(pathObj)
 
 
 console.log(path.join('usr', 'local', 'fileName', 'test.js'));
+
+console.log(path.resolve(__dirname, 'scripts', 'test.js'));
