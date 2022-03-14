@@ -14,6 +14,8 @@ let pathObj = {
 path.format(pathObj)
 
 
-console.log(path.join('usr', 'local', 'fileName', 'test.js'));
+path.join('usr', 'local', 'fileName', 'test.js')
 
-console.log(path.resolve(__dirname, 'scripts', 'test.js'));
+path.resolve(__dirname, 'scripts', 'test.js')
+
+console.log(path.parse(myCurrentPath));
