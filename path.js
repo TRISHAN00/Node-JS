@@ -2,8 +2,8 @@ const path = require('path')
 const myCurrentPath = __filename
 const dirName = __dirname
 
-console.log(path.basename(dirName));
-console.log(path.extname(myCurrentPath));
+path.basename(dirName)
+path.extname(myCurrentPath)
 
 let pathObj = {
     dir: 'usr/local',
@@ -11,4 +11,7 @@ let pathObj = {
     ext: '.js'
 }
 
-console.log(path.format(pathObj));
+path.format(pathObj)
+
+
+console.log(path.join('usr', 'local', 'fileName', 'test.js'));
